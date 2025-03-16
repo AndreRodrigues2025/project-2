@@ -11,6 +11,7 @@ import dash_html_components as html
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server= app.server
 
 # Define Layout
 app.layout = html.Div(children=[
